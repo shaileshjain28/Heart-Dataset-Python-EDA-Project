@@ -29,14 +29,12 @@ The primary objective of this project is to gain insights into the Heart Dataset
 2. Read the dataset and create a duplicate dataset for safety:
 
     ```python
-    # Code for reading and duplicating the dataset
+    o_data=pd.read_csv('Heart.csv')
+    data=o_data.copy()
     ```
 
 3. Conduct EDA using various functions from Pandas and NumPy, along with visualizations using Seaborn and Matplotlib:
 
-    ```python
-    # Code for EDA and visualizations
-    ```
 
 ## Key Insights
 
